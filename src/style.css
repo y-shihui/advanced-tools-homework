@@ -104,3 +104,40 @@ p {
   font-size: 48px;
   font-weight: 500;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 50px;
+    line-height: 1;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    font-size: 30px;
+    margin-bottom: 8px;
+  }
+
+  .navigation-links {
+    margin-top: 20px;
+  }
+
+  .project img {
+    display: none;
+  }
+
+  .title-format {
+    text-align: center;
+    font-size: 35px;
+  }
+
+  .paragraph-format {
+    text-align: center;
+    font-size: 17px;
+  }
+
+  .project-button {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+}
